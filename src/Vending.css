@@ -1,0 +1,47 @@
+.VendingMachine {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+}
+
+.VendingMachine-image {
+    width: 33%;
+    margin-left: 100px;
+}
+
+.VendingMachine-message {
+    width: 33%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.VendingMachine-message p {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    width: 50%;
+    color: white;
+}
+
+.VendingMachine-choices {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.VendingMachine-choices a {
+    padding: 25px;
+    font-size: 1.8rem;
+    color: white;
+    cursor: pointer;
+}
+
+.faded {
+    background-color: rgba(0, 0, 0, .7);
+}
+

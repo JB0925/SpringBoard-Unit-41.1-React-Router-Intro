@@ -1,0 +1,23 @@
+.Sushi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Sushi p {
+    font-size: 2.2rem;
+    color: black;
+}
+
+.faded {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+}
+
+.faded a {
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+}

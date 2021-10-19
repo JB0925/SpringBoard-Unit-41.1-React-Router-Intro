@@ -1,0 +1,38 @@
+.Chips {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Chips img {
+    position: absolute;
+}
+
+.Chips-faded {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    z-index: 1;
+}
+
+p, a {
+    color: white;
+    font-size: 2rem;
+}
+
+button {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+    padding: 10px;
+}
+
+a {
+    margin-top: 25px;
+}
+

@@ -1,0 +1,32 @@
+.Coke {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Coke-return {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+}
+
+.Coke-return p, .Coke-return a {
+    color: white;
+    font-size: 2rem;
+}
+
+.Coke img {
+    animation: spin 1.5s linear infinite;
+    width: 10%;
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
