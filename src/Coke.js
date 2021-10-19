@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Coke.css";
 import CokePic from "./img/coke.png";
 

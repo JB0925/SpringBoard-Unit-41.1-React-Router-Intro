@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Sushi.css";
 import SushiPic from "./img/sushi.png";
 

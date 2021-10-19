@@ -1,7 +1,7 @@
 import React from "react";
 import "./Vending.css";
 import VendingMachinePic from "./img/vending.png";
-import { BrowserRouter, Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const VendingMachine = () => {
     return (

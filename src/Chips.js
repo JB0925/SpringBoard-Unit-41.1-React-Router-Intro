@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useCounter, useChipAdder } from "./Hooks/hooks";
-import { BrowserRouter, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Chips.css";
 import ChipsPic from "./img/lays.png";
 
